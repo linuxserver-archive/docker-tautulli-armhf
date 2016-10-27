@@ -12,7 +12,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/plexpy
 
-[![](https://images.microbadger.com/badges/image/lsioarmhf/plexpy.svg)](http://microbadger.com/images/lsioarmhf/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/plexpy.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-plexpy)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-plexpy/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/plexpy.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-plexpy)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-plexpy/)
 [hub]: https://hub.docker.com/r/lsioarmhf/plexpy/
 
 [Plexpy](https://github.com/drzoidberg33/plexpy/) Is a Python-based Plex Usage tracker, that is currently in active development.
@@ -62,12 +62,23 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ```
 
 ## Setting up the application
+`IMPORTANT... THIS IS THE ARMHF VERSION`
+
 Access the webui at `<your-ip>:8181`, for more information check out [Plexpy](https://github.com/drzoidberg33/plexpy)..
 
 ## Info
 
 * To monitor the logs of the container in realtime `docker logs -f plexpy`.
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' plexpy`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lsioarmhf/plexpy`
+
+
 ## Versions
 
-+ **27.10.16:** Inital Release.
++ **27.10.16:** Initial Release.
