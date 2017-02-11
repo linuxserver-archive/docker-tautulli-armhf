@@ -81,5 +81,6 @@ Access the webui at `<your-ip>:8181`, for more information check out [Plexpy][pl
 
 ## Versions
 
++ **11.02.17:** Add openssl package.
 + **07.02.17:** Rebase to alpine 3.5.
 + **27.10.16:** Initial Release.
