@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/JonnyWong16/plexpy/
+[hub]: https://hub.docker.com/r/lsioarmhf/plexpy/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -13,12 +15,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 # lsioarmhf/plexpy
 
 [![](https://images.microbadger.com/badges/version/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/plexpy.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-plexpy)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-plexpy/)
-[hub]: https://hub.docker.com/r/lsioarmhf/plexpy/
 
-[Plexpy][plexpyurl] Is a Python-based Plex Usage tracker, that is currently in active development.
+[Plexpy][appurl] Is a Python-based Plex Usage tracker, that is currently in active development.
 
-[![plexpy](https://15254b2dcaab7f5478ab-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com/plex.vanillacommunity.com/editor/nt/f3vfwj7miknj.png)][plexpyurl]
-[plexpyurl]: https://github.com/JonnyWong16/plexpy/
+[![plexpy](https://15254b2dcaab7f5478ab-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com/plex.vanillacommunity.com/editor/nt/f3vfwj7miknj.png)][appurl]
 
 ## Usage
 
@@ -64,7 +64,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ## Setting up the application
 `IMPORTANT... THIS IS THE ARMHF VERSION`
 
-Access the webui at `<your-ip>:8181`, for more information check out [Plexpy][plexpyurl].
+Access the webui at `<your-ip>:8181`, for more information check out [Plexpy][appurl].
 
 ## Info
 
