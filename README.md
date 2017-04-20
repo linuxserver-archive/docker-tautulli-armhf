@@ -18,7 +18,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 [Plexpy][appurl] Is a Python-based Plex Usage tracker, that is currently in active development.
 
-[![plexpy](https://15254b2dcaab7f5478ab-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com/plex.vanillacommunity.com/editor/nt/f3vfwj7miknj.png)][appurl]
+[![plexpy](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexpy-banner.png)][appurl]
 
 ## Usage
 
@@ -81,5 +81,6 @@ Access the webui at `<your-ip>:8181`, for more information check out [Plexpy][ap
 
 ## Versions
 
++ **20.04.17:** Add pycryptodomex pip package.
 + **07.02.17:** Rebase to alpine 3.5.
 + **27.10.16:** Initial Release.
