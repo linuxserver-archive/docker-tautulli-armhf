@@ -1,10 +1,5 @@
-FROM lsiobase/alpine.python.armhf:3.5
+FROM lsiobase/alpine.python.armhf:3.6
 MAINTAINER sparklyballs
-
-# set version label
-ARG BUILD_DATE
-ARG VERSION
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # install packages
 RUN \
