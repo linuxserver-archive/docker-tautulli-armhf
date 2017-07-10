@@ -13,8 +13,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/plexpy
-
-[![](https://images.microbadger.com/badges/version/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/plexpy.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-plexpy)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-plexpy/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/plexpy.svg)](https://microbadger.com/images/lsioarmhf/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/plexpy.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/armhf/armhf-plexpy)](https://ci.linuxserver.io/job/Docker-Builders/job/armhf/job/armhf-plexpy/)
 
 [Plexpy][appurl] Is a Python-based Plex Usage tracker, that is currently in active development.
 
