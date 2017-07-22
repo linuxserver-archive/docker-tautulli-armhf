@@ -79,7 +79,7 @@ Access the webui at `<your-ip>:8181`, for more information check out [Plexpy][ap
 
 
 ## Versions
-
++ **21.07.17:** Internal git pull instead of at runtime.
 + **29.05.17:** Rebase to alpine 3.6.
 + **20.04.17:** Add pycryptodomex pip package.
 + **07.02.17:** Rebase to alpine 3.5.
