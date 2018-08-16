@@ -114,6 +114,7 @@ Access the webui at `<your-ip>:8181`, for more information check out [Tautulli][
 
 |  Date | Changes |
 | :---: | --- |
+| 16.08.18 | Rebase to alpine 3.8. |
 | 10.03.18 | Rebrand to tautulli. |
 | 25.01.18 | Rebase to alpine 3.7. |
 | 21.07.17 | Internal git pull instead of at runtime. |
