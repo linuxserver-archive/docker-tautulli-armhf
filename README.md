@@ -6,7 +6,7 @@
 [dockerfileurl]: https://github.com/linuxserver/docker-tautulli-armhf/blob/master/Dockerfile
 [hub]: https://hub.docker.com/r/lsioarmhf/tautulli/
 
-
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/tautulli`
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
 
@@ -114,6 +114,7 @@ In tautulli gui settings, under `Plex Media Server`, turn on `Show Advanced` and
 
 |  Date | Changes |
 | :---: | --- |
+| 29.01.19 | This image is deprecated. Please use the multi-arch images at linuxserver/tautulli |
 | 23.10.18 | Update plex logs info in readme. |
 | 16.08.18 | Rebase to alpine 3.8. |
 | 10.03.18 | Rebrand to tautulli. |
